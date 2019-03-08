@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "inlineSourceMap": true,
+    "sourceMap": true,
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": ["./src/**/*"]
+}

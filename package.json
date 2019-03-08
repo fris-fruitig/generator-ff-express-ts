@@ -1,0 +1,19 @@
+{
+  "name": "generator-ff-express-ts",
+  "version": "1.0.0",
+  "description": "Skeleton for Fris & Fruitig Express server with TypeScript",
+  "author": "Fris & Fruitig",
+  "private": true,
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "yeoman-generator": "3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}

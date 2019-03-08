@@ -1,0 +1,25 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "author": "Fris & Fruitig",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rm -rf dist && tslint -c tslint.json -p tsconfig.build.json && webpack-cli --config ./webpack.config.js",
+    "test": "jest --runInBand",
+    "start": "node dist/server.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ]
+  }
+}

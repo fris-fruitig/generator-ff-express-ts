@@ -1,0 +1,10 @@
+useTabs: false
+printWidth: 100
+tabWidth: 2
+trailingComma: none
+singleQuote: true
+bracketSpacing: true
+jsxBracketSameLine: false
+parser: typescript
+semi: true
+arrowParens: always

@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["**/*.test.ts", "**/*.spec.ts", "src/setupTests.ts"],
+  "exec": "node -r ts-node/register/transpile-only src/server.ts",
+  "inspect": true
+}
