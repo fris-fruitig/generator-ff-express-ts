@@ -11,7 +11,7 @@ npm install -g yo
 
 Installeer de `ff-express-ts` generator
 ```
-npm install -g generator-ff-express-ts
+npm install generator-ff-express-ts
 ```
 
 Maak een nieuwe folder voor de server
