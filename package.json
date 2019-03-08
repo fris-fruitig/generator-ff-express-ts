@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Skeleton for Fris & Fruitig Express server with TypeScript",
   "author": "Fris & Fruitig",
-  "private": true,
   "keywords": [
     "yeoman-generator"
   ],
